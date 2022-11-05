@@ -54,7 +54,16 @@ h3 {
     opacity: 0;
 }
 
-@media screen and (max-width: 768px){
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
     h1 {
         font-size: 2em;
     }
