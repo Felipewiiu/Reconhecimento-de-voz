@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* color hunt é o site para pesquisar as paletas de cores */
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --primary-color: #f9f4f4 ;
+    --bg-color: #47B5FF;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: solid 2px var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.acerto{
+    color: #b9fae9;
+}
+
+.audio{
+    opacity: 0;
+}
+
+@media screen and (min-width: 414px){
+    h1 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin-top: 20px;
+    }
+
+    .box {
+        border: solid 2px var(--primary-color);
+        display: inline-block;
+        font-size: 2em;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    
+}
