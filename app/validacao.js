@@ -17,7 +17,14 @@ function verificaChuteValido (chute){
 
     if(numero === numeroSecreto){ // essa função reescreve tudo que existe no body
         document.body.innerHTML = `
-            <h1 class='acerto'>UAUU você acertou!!</h1>
+            <h1 class='acerto'>
+            <div class="container">
+            <div class="animation">U</div>
+            <div class="animation">A</div>
+            <div class="animation">U</div>
+            <div class="animation">U</div>
+            </div>
+            você acertou!!</h1>
             <h3>O número secreto era ${numeroSecreto}</h3>
             <button id="jogar-novamente" class="btn-jogar">Jogar novamente</buton>
             <audio src="music/111 Fanfare.mp3" class="audio" data-audio2 autoplay></audio >

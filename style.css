@@ -38,6 +38,53 @@ h3 {
     margin-top: 40px;
 }
 
+.container{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.animation{
+    font-size: 2em;
+    animation: uau 1s ease-out alternate infinite;
+}
+
+.container .animation:nth-last-of-type(1){
+    animation-delay: 0.25s;
+}
+
+.container .animation:nth-last-of-type(2){
+    animation-delay: 0.50s;
+}
+
+.container .animation:nth-last-of-type(3){
+    animation-delay: 0.75s;
+}
+
+.container .animation:nth-last-of-type(4){
+    animation-delay: 1s;
+}
+
+@keyframes uau {
+    0% {
+        transform: translateY(0px), rotate(360deg);
+        color: #e1ca09;
+
+    }
+
+    25% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+        color: rgb(101, 243, 236);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 .box {
     border: solid 2px var(--primary-color);
     display: inline-block;
@@ -61,6 +108,13 @@ h3 {
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
+    transition: all 500ms;
+}
+
+.btn-jogar:hover{
+    transform: scale(1.2);
+    background-color: #e1ca09;
+    color: #3e3e3e;
 }
 
 .nome { 

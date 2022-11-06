@@ -4,7 +4,7 @@ window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 const recognition = new SpeechRecognition(); // É preciso instanciar essa classe
 
 recognition.lang = 'pt-Br'
-recognition.start()
+//recognition.start()
 
 
 recognition.addEventListener('result', onSpeak)

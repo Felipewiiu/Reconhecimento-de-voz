@@ -9,8 +9,10 @@ function tocaSom (){
 
 start.addEventListener("click", ()=>{
     tocaSom()
+    recognition.start()
 })
 
 function tocaSom2 (){
     audio2.play()
+   
 }
