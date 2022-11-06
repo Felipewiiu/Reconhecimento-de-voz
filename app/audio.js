@@ -1,5 +1,5 @@
 const audio = document.querySelector("[data-audio]")
-const audio2 = document.querySelector("[data-audio2]")
+var audio2 = document.querySelector("[data-audio2]")
 const start = document.querySelector(".start")
 
 function tocaSom (){

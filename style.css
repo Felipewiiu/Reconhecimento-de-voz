@@ -63,7 +63,7 @@ h3 {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){ /* A baixo deste valor ele aplica o estilo */
     h1 {
         font-size: 2em;
     }
