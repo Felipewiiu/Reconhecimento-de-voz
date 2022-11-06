@@ -3,7 +3,7 @@ function verificaChuteValido (chute){
 
     if(Number.isNaN(numero)){ // extrair para uma função global
         elementoChute.innerHTML += "Isso não é um valor válido" // += significa o própio elemento mais alguma coisa
-        
+        audio3.play()
         return
     }
 
@@ -15,7 +15,7 @@ function verificaChuteValido (chute){
 
     
 
-    if(numero === numeroSecreto){
+    if(numero === numeroSecreto){ // essa função reescreve tudo que existe no body
         document.body.innerHTML = `
             <h1 class='acerto'>UAUU você acertou!!</h1>
             <h3>O número secreto era ${numeroSecreto}</h3>

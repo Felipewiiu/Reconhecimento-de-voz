@@ -63,6 +63,17 @@ h3 {
     cursor: pointer;
 }
 
+.nome { 
+    font-size: 0.8em;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    padding:9px ;
+    border-radius: 30px;
+    background-color: rgb(238, 238, 13);
+    color: black;
+}
+
 @media screen and (max-width: 1024px){ /* A baixo deste valor ele aplica o estilo */
     h1 {
         font-size: 2em;
@@ -88,5 +99,16 @@ h3 {
         border-radius: 5px;
         margin-top: 20px;
         cursor: pointer;
+    }
+
+    .nome { 
+        font-size: 0.5em;
+        top: 10px;
+        left: 10px;
+        position: absolute;
+        padding:9px ;
+        border-radius: 30px;
+        background-color: rgb(238, 238, 13);
+        color: black;
     }
 }
